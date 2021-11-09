@@ -7,7 +7,7 @@ function someone(x){
 }
 
 var Eva = 'Evangelion people';
-function sayhello67(){
+function sayhello671(){
     alert('Hello,' + Eva + '!');
 }
 function someone(x){
