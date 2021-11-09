@@ -1,1 +1,1 @@
-function gakita(){alert(who65+'がきた!');}
+function gakita(){alert(who65+'が来た!');}
