@@ -134,11 +134,13 @@ onclick="txtchange1();">
 
   <input type="button" value="画像の変更"
   onclick="imgchange1();">
-<img src='./image/Josai Logo.jpg' id="logo" alt="josai logo">
+<img src='./image/Josai Logo.jpg' id="logo" alt="josai logo" class="imagechange">
+
+<br><br>
 
 <input type="button" value="元に戻す"
 onclick="imgchange2();">
-<img src='./image/' id="logo" >
+
 
 <br><h1>練習問題6.11 タイマーイベントによる実行</h1><br>
 <form name="timer">
@@ -148,6 +150,8 @@ onclick="startfnc()">
 <input type="text" name="moji" size="30"
 value=""></form>
 
+<form> <input type="button" value="Timer"
+oneclick="setTimeout('mes()',3000)"> </form>
 
 </body>
 </html>
