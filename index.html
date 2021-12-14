@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title> Web開発の練習１</title>
   <link rel="stylesheet" href="mystyle.css">
+  <link rel="stylesheet" href="imagechange.css">
   <!--
   <script src="myjs.js"></script>
   -->
@@ -151,7 +152,13 @@ onclick="startfnc()">
 value=""></form>
 
 <form> <input type="button" value="Timer"
-oneclick="setTimeout('mes()',3000)"> </form>
+onclick="setTimeout('mes()',3000)"> </form>
+
+<form name="timer">
+<input type="button" value="スタート" onclick="hyoji()">
+<br>
+<input type="text" name=moji size="30" value="">
+</form>
 
 </body>
 </html>
