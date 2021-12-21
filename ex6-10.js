@@ -3,6 +3,6 @@ function imgchange1(){
 }
 
 function imgchange2(){
-    document.getElementById('logo').src = '/image/Josai Logo.jpg';
+    document.getElementById('logo2').src = '/image/Josai Logo.jpg';
 }
 
